@@ -7628,8 +7628,14 @@ a.button {
 .platform-ios ion-list .list {
   margin-top: 20px; }
 
+.main-menu {
+  background-color: url("../img/shadow.png")
+}
+
 .main-menu ion-content {
-  background-color: #F74444; }
+  background-color: url("../img/back-red.png")
+    
+}
 .main-menu .menu-header-bar-title {
   font-size: 30px;
   font-weight: 500;

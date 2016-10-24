@@ -56,4 +56,46 @@ angular.module('jsconfuy.services', [])
   };
 })
 
+.service('Information', function ($http, $q){
+
+  this.get = function() {
+    var dfd = $q.defer();
+
+    $http.get('information.json')
+      .success(function(data) {
+        var s1 = _.filter(data, function(info){ return info.section =="s1" }),
+            s2 = _.filter(data, function(info){ return info.section =="s2" })
+            s3 = _.filter(data, function(info){ return info.section =="s3" });
+
+        dfd.resolve({
+          "section1": s1,
+          "section2": s2,
+          "section3": s3
+        });
+      })
+      .error(function(data) {
+        dfd.reject(data);
+      });
+
+    return dfd.promise;
+  };
+  /**/
+  this.getInfoItem = function(infoId){
+    var dfd = $q.defer();
+
+    $http.get('information.json')
+    .success(function(data) {
+      var info = _.find(data, {id: infoId});
+      dfd.resolve(info);
+    })
+    .error(function(data) {
+      dfd.reject(data);
+    });
+
+    return dfd.promise;
+  };
+  /**/
+
+})
+
 ;

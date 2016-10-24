@@ -1,0 +1,143 @@
+[
+  {
+    "id":"1",
+    "title":"Important Information",
+    "background_img":"img/back-green.png",
+    "section":"s1",
+    "html": [
+      "<p>Recommended items to bring to Mexico: </p>",
+      
+      "<h3> Recommended items to bring to Mexico: </h3>",
+      "<ul>",
+        "<li> Travel Documentation and photocopies (Required)</li>",
+        "<li> Passport </li>",
+        "<li> Visa documentation</li>",
+        "<li> Support documentation provided by Fundar.</li>",
+        "<li> Travel insurance documentation </li>",
+        "<li> Health documents (proof of vaccinations, medical prescriptions, etc.)</li>",
+        "<li> Airline ticket</li>",
+        "<li> Telephone numbers and address of your country’s embassy and consulate in Mexico, or in the USA.</li>",
+      "</ul>", 
+
+      "<h3>Clothing</h3>",
+      "<ul>",
+        "<li> Formal and casual wear appropriate for cool and warm weather (between 15 and 30°C)",
+          "<ul>", 
+            "<li> Sweater and/or Warm jacket for chilly and rainy nights </li>", 
+            "<li> Raincoat </li>", 
+            "<li> Light clothing (light and short-sleeves shirts) as it can get very warm </li>", 
+          "</ul>", 
+        "</li>",
+        "<li> Passport </li>",
+        "<li> Appropriate and comfortable clothing for field visits, sightseeing and air conditioned bus travel (light casual pants, light casual shirt with sleeves; closed-toe boots or tennis) </li>",
+        "<li> We will be visiting public agencies and policy makers, and there might be a press conference on November 4th, so we recommend that you wear formal clothes on that day. The rest of the days you can wear casual clothes. </li>",
+      "</ul>", 
+
+      "<h3>Miscellaneous Items </h3>",
+      "<ul>",
+        "<li> International adapter plug (In Mexico, plugs are Type A & B) </li>",
+        "<li> Pouch to store money underneath clothing </li>",
+        "<li> Extra money for amenities not covered by ELLA study tour as listed in the \"Study Tour Logistical Information\" section</li>",
+        "<li> Avoid as possible bringing items of significant value </li>",
+        "<li> Camera </li>",
+        "<li> Any medication you might need and your prescriptions </li>",
+        "<li> Sunscreen </li>",
+        "<li> Notebook or personal computer to take notes during the visit </li>",
+        "<li> We will be having a Cultural Welcome Diner on the second day of the Study Tour. This is why we invite you to bring a typical object, a piece of clothing or anything that is representative of your country and that you wish to share with us.  </li>",
+      "</ul>",
+
+      "<h3>Some advice while travelling in Mexico: </h3>",
+      "<ul>",
+        "<li> Be sure to use taxi services at night time. Likewise, always take a safe taxi (taxis de sitio in Spanish). These taxis need to be called, are from trustworthy companies, and are 100% safe. Participants can ask for a safe taxi in the hotel’s front desk. Fundar staff can also help you with calling a safe taxi. Never take a taxi from the street; these are quite dangerous, so please make sure to call one of these “taxis de sitio”.</li>",
+        "<li> At night, avoid going out alone. It is preferable to go in groups of at least two people. Never talk to strangers, even if they look nice and charming. </li>",
+        "<li> Please, be advised not to take out valuable belongings (cameras, Iphones, Ipods, etc.) in the street or in crowded places. ",
+        "<li> Always pay with small notes, especially in small shops. Do not pay with notes of $500 pesos, unless you are in bigger stores, as it will be difficult that people have change. </li>",
+        "<li> When buying local art craft or souvenirs in a market, bargain! Since you are a tourist, vendors will try to give you higher prices. Also, bargaining is a common practice in Mexico. </li>",
+        "<li> Be sure to always carry Embassy/Consulate information, as well as Hotel (see the “Study Tour Accommodation Information” section), Fundar and ELLA staff information (see the “Emergecy Contacts” section)",
+      "</ul>"
+    ]
+  },
+  {
+    "id":"2",
+    "title":"Mexico",
+    "background_img":"img/back-yellow.png",
+    "section":"s1",
+    "html": [
+      "<li> Travel Documentation and photocopies (Required)</li>",
+      "<li> Passport </li>",
+      "<li> Visa documentation</li>",
+      "<li> Support documentation provided by Fundar.</li>",
+      "<li> Travel insurance documentation </li>",
+      "<li> Health documents (proof of vaccinations, medical prescriptions, etc.)</li>",
+      "<li> Airline ticket</li>",
+      "<li> Telephone numbers and address of your country’s embassy and consulate in Mexico, or in the USA.</li>"
+    ]
+  },
+
+  {
+    "id":"3",
+    "title":"Logistics",
+    "background_img":"img/back-red.png",
+    "section":"s1",
+    "html": [
+      "<li> Travel Documentation and photocopies (Required)</li>",
+      "<li> Passport </li>",
+      "<li> Visa documentation</li>",
+      "<li> Support documentation provided by Fundar.</li>",
+      "<li> Travel insurance documentation </li>",
+      "<li> Health documents (proof of vaccinations, medical prescriptions, etc.)</li>",
+      "<li> Airline ticket</li>",
+      "<li> Telephone numbers and address of your country’s embassy and consulate in Mexico, or in the USA.</li>"
+    ]
+  },
+
+  {
+    "id":"4",
+    "title":"Accomodations",
+    "background_img":"img/back-green.png",
+    "section":"s1",
+    "html": [
+      "<li> Travel Documentation and photocopies (Required)</li>",
+      "<li> Passport </li>",
+      "<li> Visa documentation</li>",
+      "<li> Support documentation provided by Fundar.</li>",
+      "<li> Travel insurance documentation </li>",
+      "<li> Health documents (proof of vaccinations, medical prescriptions, etc.)</li>",
+      "<li> Airline ticket</li>",
+      "<li> Telephone numbers and address of your country’s embassy and consulate in Mexico, or in the USA.</li>"
+    ]
+  }, 
+
+  {
+    "id":"5",
+    "title":"Emergency Contacts",
+    "background_img":"img/back-yellow.png",
+    "section":"s1",
+    "html": [
+      "<h3>Fundar Team</h3>",
+      "<p>",
+        "Fundar Centro de Análisis e Investigación <br>",
+        "Cerrada Alberto Zamora No. 21, <br>",
+        "Col. Villa Coyoacán. Del. Coyoacán <br>",
+        "C.P. 04000 México D.F. <br>",
+        "Tel. (+52) (55) 5554 3001",
+      "</p>",
+
+      "<ul>",
+        "<li> Cecilia Toledo Cellphone - (+52 1) (55) 3856 6031 * </li>",
+        "<li> Claudia de Anda Cellphone – (+52 1) (55) 3243 2730 * </li>",
+        "<li> Janet Oropeza Cellphone - (+52 1) (55) 4453 2821 * </li>",
+        "<li> Marine Perron Cellphone - (+52 1) (55) 4965 7098 * </li>",
+        "<li> Haydeé Pérez Cellphone - (+52 1) (55) 3488 8878 * </li>",
+      "</ul>",
+
+      "<p>",
+        "To call a Mexican cell phone from a foreign cell phone, please mark 0052 1 + 10 digits <br>",
+        "To call a Mexican cell phone from a Mexican landline phone, please mark 044 + 10 digits <br>",
+        "To call a Mexican cell phone from another Mexican cell phone, please mark 10 digits <br>",
+        "To call another Mexican state landline phone from a landline or a cell phone, please mark 01+10 digits <br>",
+        "To call another Mexican state cell phone from a landline phone, please mark 045 + 10 digits <br>",
+      "</p>"
+    ]
+  }
+]

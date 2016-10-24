@@ -70,6 +70,26 @@ angular.module('jsconfuy', [
     }
   })
 
+  .state('app.information', {
+    url: "/information",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/information.html",
+        controller: 'InformationCtrl'
+      }
+    }
+  })
+
+  .state('app.infoDetail', {
+    url: "/information/:infoId",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/infoDetail.html",
+        controller: 'InfoDetailCtrl'
+      }
+    }
+  })
+
   .state('app.event', {
     url: "/event/:eventId",
     views: {
@@ -81,5 +101,5 @@ angular.module('jsconfuy', [
   });
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/agenda');
+  $urlRouterProvider.otherwise('/app/information');
 });

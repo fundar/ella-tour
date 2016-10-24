@@ -54,6 +54,57 @@ angular.module('jsconfuy.controllers', [])
   });
 })
 
+.controller('InformationCtrl', function($scope, Information, $ionicLoading) {
+  $scope.information = [];
+
+  $ionicLoading.show({
+    template: 'Loading...'
+  });
+
+  Information.get()
+  .then(function(data){
+    $scope.information = data;
+    $ionicLoading.hide();
+  },function(err){
+    $ionicLoading.hide();
+  });
+})
+/*
+.controller('InfoDetailCtrl', function($scope, Information, $stateParams, $ionicLoading) {
+  var infoId = $stateParams.infoId;
+
+  $ionicLoading.show({
+    template: 'Loading...'
+  });
+
+  Information.getInfoItem(infoId)
+  .then(function(data){
+    $scope.info = data;
+    console.log(data)
+    $ionicLoading.hide();
+  },function(err){
+    $ionicLoading.hide();
+  })
+})
+/**/
+/**/
+.controller('InfoDetailCtrl', function($scope, Information, $stateParams, $ionicLoading) {
+  var infoId = $stateParams.infoId;
+
+  $ionicLoading.show({
+    template: 'Loading...'
+  });
+
+  Information.getInfoItem(infoId)
+  .then(function(data){
+    $scope.info = data;
+    console.log(data)
+    $ionicLoading.hide();
+  },function(err){
+    $ionicLoading.hide();
+  })
+})
+/**/
 .controller('EventCtrl', function($scope, Agenda, $stateParams, $ionicLoading) {
   var eventId = $stateParams.eventId;
 

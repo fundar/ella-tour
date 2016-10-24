@@ -1,0 +1,10 @@
+<div class="row">
+  <a ng-if="info.type !== 'global'" 
+     class="col col-75 event-content {{info.type}}" 
+     style="background-image:url({{info.background_img}}); width:100%;"
+     ui-sref="app.infoDetail({infoId: info.id})" >
+
+    <p class="event-title info" ng-bind-html="info.title"></p>
+
+  </a>
+</div>

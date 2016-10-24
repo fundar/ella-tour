@@ -1,0 +1,24 @@
+<ion-view class="event-view">
+  <ion-nav-buttons side="right">
+    <a class="button button-icon icon ion-share share-event" ng-click="shareEvent(event)"></a>
+  </ion-nav-buttons>
+  <ion-nav-title>
+    <span>{{info.type}}</span>
+  </ion-nav-title>
+  <ion-content>
+    
+    <img class="speaker-image" ng-src="{{info.background_img}}"/>
+
+    <div class="event-details">
+      <span class="event-title" ng-bind-html="info.title"></span>
+    </div>
+
+    <div class="event-description">
+      <div ng-bind-html="info.html.join('\n')"></div>
+      <div agenda-event></div>
+    </div>
+
+  </ion-content>
+</ion-view>
+
+<div agenda-event ng-repeat="event in events.day2" class="agenda-event"></div>

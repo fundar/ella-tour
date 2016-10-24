@@ -6,15 +6,9 @@ angular.module('jsconfuy.directives', [])
   };
 })
 
-.directive('infoEvent', function() {
+.directive('infoItem', function() {
   return {
-    templateUrl: 'templates/partials/info-event.html'
-  };
-})
-
-.directive('important', function() {
-  return {
-    templateUrl: 'templates/partials/important.html'
+    templateUrl: 'templates/partials/info-item.html'
   };
 })
 ;

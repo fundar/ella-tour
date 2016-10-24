@@ -8,7 +8,7 @@
   },
   {
     "id":"2",
-    "title":"Mexico",
+    "title":"About Mexico",
     "background_img":"img/back-yellow.png",
     "section":"s1",
     "html_route": "templates/partials/info/mexico.html"

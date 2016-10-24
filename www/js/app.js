@@ -58,7 +58,9 @@ angular.module('jsconfuy', [
         controller: 'VenueCtrl'
       }
     }
+
   })
+
 
   .state('app.agenda', {
     url: "/agenda",
@@ -72,6 +74,7 @@ angular.module('jsconfuy', [
 
   .state('app.information', {
     url: "/information",
+
     views: {
       'menuContent': {
         templateUrl: "templates/information.html",

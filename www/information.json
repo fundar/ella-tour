@@ -4,7 +4,7 @@
     "title":"Important Information",
     "background_img":"img/back-green.png",
     "section":"s1",
-	"type":"jose",
+	"inter":"jose",
     "html_route": "templates/partials/info/important.html"
   },
   {
@@ -20,7 +20,7 @@
     "title":"Logistics",
     "background_img":"img/back-red.png",
     "section":"s1",
-	"type":"jose",
+	"inter":"jose",
     "html_route": "templates/partials/info/logistics.html"
   },
 
@@ -38,7 +38,7 @@
     "title":"Emergency Contacts",
     "background_img":"img/back-yellow.png",
     "section":"s1",
-	"type":"jose",
+	"inter":"jose",
     "html_route": "templates/partials/info/emergency.html"
   }
 ]

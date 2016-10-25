@@ -9,7 +9,8 @@
 	  <ion-pane>
         <ion-content class="padding">
       <div style="font-weight: bold">  Sunday October 30th 2016(Mexico City)</div>
-	  <div> <br><br>Arrival in Mexico City and transfer to hotel. Participants check-in to the hotel and will have time to rest in order to be ready to start the study tour the following day	</div>
+	  <div> <br><br>Participants arrive at Mexico City’s Airport and transfer to the hotel. Participants check into the Hotel Genève and will have time to rest in order to be ready to start the study tour the following day.
+</div>
 		<div agenda-event ng-repeat="event in events.day1" class="agenda-event"></div>
 		</ion-content>
       </ion-pane>
@@ -85,13 +86,34 @@
 	<ion-tab class="tab-title" title="Day 8">
       <ion-pane>
         <ion-content class="padding">
-		<div style="font-weight: bold">Sunday November 6th 2016 (Teotihuacan)<div>
+		<div style="font-weight: bold">Sunday November 6th 2016 (Teotihuacan)</div>
 								<div>Objectives: </div>
 						<div></div>
           <div agenda-event ng-repeat="event in events.day8" class="agenda-event"></div>
         </ion-content>
       </ion-pane>
     </ion-tab>
+	
+	<ion-tab class="tab-title" title="Day 9">
+      <ion-pane>
+        <ion-content class="padding">
+		<div style="font-weight: bold">Sunday November 6th 2016 (Teotihuacan)</div>
+								<div>Objectives: </div>
+			<div agenda-event ng-repeat="event in events.day9" class="agenda-event"></div>
+        </ion-content>
+      </ion-pane>
+    </ion-tab>
+	
+	<ion-tab class="tab-title" title="End">
+      <ion-pane>
+        <ion-content class="padding">
+		<div style="font-weight: bold">Sunday November 6th 2016 (Teotihuacan)</div>
+								<div>Se van </div>
+			<div agenda-event ng-repeat="event in events.day9" class="agenda-event"></div>
+        </ion-content>
+      </ion-pane>
+    </ion-tab>
+	
 	
   </ion-tabs>
 </ion-view>

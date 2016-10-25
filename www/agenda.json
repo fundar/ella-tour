@@ -1,9 +1,9 @@
 [
   {
     "id":"26",
-    "title":"Registration & Breakfast",
-    "time_from":"9:00 am",
-    "time_to":"10:00 am",
+    "title":"Breakfast at the Hotel Genève",
+    "time_from":"8:00 am",
+    "time_to":"09:00 am",
     "type":"global",
     "room":"",
     "date":"day2"
@@ -11,8 +11,8 @@
   {
     "id":"27",
     "title":"Opening",
-    "time_from":"10:00 am",
-    "time_to":"10:05 am",
+    "time_from":"09:00 am",
+    "time_to":"10:00 am",
     "type":"global",
     "room":"",
     "date":"day2"

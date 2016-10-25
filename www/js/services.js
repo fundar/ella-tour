@@ -33,6 +33,10 @@ angular.module('jsconfuy.services', [])
 		  day6 = _.filter(data, function(event){ return event.date =="day6" });
 		  day7 = _.filter(data, function(event){ return event.date =="day7" });
 		  day8 = _.filter(data, function(event){ return event.date =="day8" });
+ 		  day9 = _.filter(data, function(event){ return event.date =="day9" }); 
+		  day10 = _.filter(data, function(event){ return event.date =="day10" });
+
+
 	  dfd.resolve({
         "day1": day1,
 		"day2": day2,
@@ -41,7 +45,9 @@ angular.module('jsconfuy.services', [])
 		"day5": day5,
 		"day6": day6,
 		"day7": day7,
-		"day8": day8
+		"day8": day8,
+		"day9": day9,
+		"day10": day10
       });
     })
     .error(function(data) {

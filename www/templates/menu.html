@@ -14,10 +14,21 @@
   <ion-side-menu class="main-menu" side="left">
     <ion-content scroll="false">
       <ion-list>
+        <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.information">
+          <i class="icon ion-information-circled"></i>
+          <h2 class="menu-text">Logistical Information</h2>
+        </ion-item>
+
         <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.agenda">
           <i class="icon ion-calendar"></i>
           <h2 class="menu-text">Agenda</h2>
         </ion-item>
+        
+        <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.infoDetail({infoId: 5})">
+          <i class="icon ion-ios-bolt"></i>
+          <h2 class="menu-text">Emergency Contacts</h2>
+        </ion-item>
+        
         <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.speakers">
           <i class="icon ion-speakerphone"></i>
           <h2 class="menu-text">Team</h2>
@@ -26,15 +37,7 @@
           <i class="icon ion-ios-location"></i>
           <h2 class="menu-text">Mapa</h2>
         </ion-item-->
-        <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.information">
-          <i class="icon ion-information-circled"></i>
-          <h2 class="menu-text">Logistical Information</h2>
-        </ion-item>
 
-         <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.infoDetail({infoId: 5})">
-          <i class="icon ion-ios-bolt"></i>
-          <h2 class="menu-text">Emergency Contacts</h2>
-        </ion-item>
 
       </ion-list>
       <h2 class="menu-header-bar-title">StudyTour<br><span class="uy">ELLA</span></h2>

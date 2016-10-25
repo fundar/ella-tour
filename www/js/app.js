@@ -83,6 +83,16 @@ angular.module('jsconfuy', [
     }
   })
 
+  .state('app.violence', {
+    url: "/violence",
+
+    views: {
+      'menuContent': {
+        templateUrl: "templates/violence.html"
+      }
+    }
+  })
+
   .state('app.infoDetail', {
     url: "/information/:infoId",
     views: {

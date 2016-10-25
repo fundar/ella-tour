@@ -2759,7 +2759,7 @@ ion-infinite-scroll {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #fff;
+  background-color: #cccacf;
   overflow: hidden; }
 
 .view-container {
@@ -7629,8 +7629,8 @@ a.button {
   margin-top: 20px; }
 
 .main-menu {
-  background-color: url("../img/shadow.png")
-}
+  background-color: #F74444; 
+  }
 
 .main-menu ion-content {
   background-color: url("../img/back-red.png")
@@ -7665,7 +7665,7 @@ a.button {
       color: #254164;
       font-size: calc(30px - 4px); }
   .main-menu ion-item.item .item-content.activated {
-    background-color: #ffd433; }
+    background-color: #B2B2B0; }
   .main-menu ion-item.item .menu-text {
     color: #FFFFFF;
     font-weight: 500; }
@@ -7758,7 +7758,7 @@ a.button {
       display: block; }
   .agenda-view .event-content {
     text-decoration: none;
-    background-color: #d0d0d0;
+    background-color: #ffffff;
     background-size: 73vw;
     background-position-y: 15%;
     min-height: 40vw;

@@ -1,359 +1,5 @@
 [
   {
-    "id":"1",
-    "title":"Registratio & Desayuno",
-    "time_from":"8:15 am",
-    "time_to":"9:45 am",
-    "type":"global",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"2",
-    "title":"Opening",
-    "time_from":"9:45 am",
-    "time_to":"10:00 am",
-    "type":"global",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"3",
-    "title":"Build your own Bootstrap",
-    "time_from":"10:00 am",
-    "time_to":"10:50 am",
-    "type":"keynote",
-    "speakers":[
-      {
-        "name":"Alex Sexton",
-        "image":"img/speakers/alex_sexton.jpg"
-      }
-    ],
-    "background_img":"img/speakers/alex_sexton.jpg",
-    "description":"Bootstrap popularized the idea of a CSS Component Library. It's a very well thought-out library, and it's extremely useful, well-tested, and well-architected. However, your app probably has needs, both in functionality and in design, that Bootstrap doesn't offer. You should make your own Bootstrap, custom for your app! You can base it off of the real deal, or start from scratch, but making a library of components for your app or website allows you superior testability, accessibility, reliability and updatability (if it ends in 'ility', you've got it!). Alex helped build 'Bootstripe' for Stripe's new user dashboard, and he's got a lot of tips for how to create, test, and maintain a library that's specific to your app or your company's needs.",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"4",
-    "title":"Sass Maps: working with responsive breakpoints.",
-    "time_from":"10:50 am",
-    "time_to":"11:15 am",
-    "type":"talk",
-    "speakers":[
-      {
-        "name":"Lourdes Montano",
-        "image":"img/speakers/lourdes_montano.jpg"
-      }
-    ],
-    "background_img":"img/speakers/lourdes_montano.jpg",
-    "description":"When working with responsive design, dealing with breakpoints can get messy. Sass maps are a clean and powerful way to manage this data. In this talk we’ll see how they work, its usage and some useful functions.",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"5",
-    "title":"Websockets for real - real time",
-    "time_from":"10:50 am",
-    "time_to":"12:00 pm",
-    "type":"workshop",
-    "speakers":[
-      {
-        "name":"Michael Cetrulo",
-        "image":"img/speakers/michael_cetrulo.jpg"
-      }
-    ],
-    "background_img":"img/speakers/michael_cetrulo.jpg",
-    "description":"",
-    "room":""
-  },
-  {
-    "id":"6",
-    "title":"Coffee Break",
-    "time_from":"11:15 am",
-    "time_to":"11:30 am",
-    "type":"global",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"7",
-    "title":"To 3D and beyond: WebGL & WebVR for fun and profit",
-    "time_from":"11:30 am",
-    "time_to":"12:00 pm",
-    "type":"talk",
-    "speakers":[
-      {
-        "name":"Martin Naumann",
-        "image":"img/speakers/martin_naumann.jpg"
-      }
-    ],
-    "background_img":"img/speakers/martin_naumann.jpg",
-    "description":"In this talk you will learn how to unlock the 3rd dimension on the web and use it to create impressive new visualisations, stories and experiences. You will see how WebGL can then be taken even further by using technologies such as Oculus Rift, Google Cardboard or LEAPMotion with WebVR to enable truly immersive experiences right from your browser.",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"21",
-    "title":"Descentralizing the web: the REAL backendless apps",
-    "time_from":"12:00 pm",
-    "time_to":"12:25 pm",
-    "type":"talk",
-    "speakers":[
-      {
-        "name":"Martin Gontovnikas",
-        "image":"img/speakers/martin_gontovnikas.jpg"
-      }
-    ],
-    "background_img":"img/speakers/martin_gontovnikas.jpg",
-    "description":"In the last couple of years, we have seen a huge shift on how we write applications. Logic is being pushed to the client (browser, native apps, iot).  However, all powerful apps still need a backend API. Lately, new services have emerged which let you create an API without having to code it. But with the introduction of more lightweight ways of computing like Docker and token based security we can go even further. What if we don't need any server at all and we can run any custom code? What if we could actually write the code that will run in the server in our FrontEnd apps?  In this session we will go over a new way of writing completely backendless applications using CoreOs, Docker, Token based secuity, ES6 ans NodeJS",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"9",
-    "title":"Lunch",
-    "time_from":"12:25 pm",
-    "time_to":"13:55 pm",
-    "type":"global",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"10",
-    "title":"Patterns for Growth and Scale",
-    "time_from":"13:55 pm",
-    "time_to":"14:25 pm",
-    "type":"talk",
-    "speakers":[
-      {
-        "name":"Chris Miller",
-        "image":"img/speakers/chris_miller.jpg"
-      }
-    ],
-    "background_img":"img/speakers/chris_miller.jpg",
-    "description":"The challenges faced by websites with 10 active users are vastly different than those faced by sites with tens of millions of users. Different infrastructure, but also a different mentality in application development. My talk will cover patterns I have seen over years of working with some of the biggest sites on the Internet. Things such as how to think about application structure, how to build frontend components for reusable and disposable code, how to approach feature ramping and kill switches, and how to build in full-stack analytics. This talk will apply to both browser-based application and touch a bit on how this can apply to Node.js applications. I will use real-world examples from my experience with Tumblr, The Huffington Post, and other high traffic sites.",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"11",
-    "title":"Support an Army",
-    "time_from":"14:25 pm",
-    "time_to":"14:50 pm",
-    "type":"talk",
-    "speakers":[
-      {
-        "name":"Jean-Charles Sisk",
-        "image":"img/speakers/jean_charles_sisk.jpg"
-      }
-    ],
-    "background_img":"img/speakers/jean_charles_sisk.jpg",
-    "description":"Lessons learned in growing Node at PayPal. In this talk, Jean-Charles will go into the trials and tribulations of growing node adoption at PayPal, a few years after it was first introduced. From training developers, addressing concerns, and growing your software organically, he's here to help you learn from his mistakes and prepare for what's to come as you help your company adopt NodeJS.",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"13",
-    "title":"Meteor. Isomorphic JS, the easy way",
-    "time_from":"14:25 pm",
-    "time_to":"16:15 pm",
-    "type":"workshop",
-    "speakers":[
-      {
-        "name":"Pablo Chiappetti",
-        "image":"img/speakers/pablo_chiappetti.jpg"
-      }
-    ],
-    "background_img":"img/speakers/pablo_chiappetti.jpg",
-    "description":"Meteor defines itself as “a complete open source platform for building web and mobile apps in pure JavaScript”. In this workshop, I’ll try to prove you that they are not just talking. Meteor is production ready as we speak, and it can help you bring your ideas to life faster.We are going to review the basics of Meteor, its main features, and the key concepts you need to know to start building apps with it. We’ll also build a multi-user, real-time application together, from zero to deploy.You will leave this workshop with a better understanding of how all the magic happens behind the curtains, and well aware of Meteor’s potential for rapid application development.",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"14",
-    "title":"Coffee Break",
-    "time_from":"14:50 pm",
-    "time_to":"15:05 pm",
-    "type":"global",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"15",
-    "title":"High Performance in the Critical Rendering Path",
-    "time_from":"15:05 pm",
-    "time_to":"15:35 pm",
-    "type":"talk",
-    "speakers":[
-      {
-        "name":"Nicolas Bevacqua",
-        "image":"img/speakers/nicolas_bevacqua.jpg"
-      }
-    ],
-    "background_img":"img/speakers/nicolas_bevacqua.jpg",
-    "description":"This talk covers the past, present and future of web application performance when it comes to delivery optimization. I'll start by glancing over what you're already doing -- minifying your static assets, bundling them together, and using progressive enhancement techniques. Then I'll move on to what you should be doing -- optimizing TCP network delivery, inlining critical CSS, deferring font loading and CSS so that you don't block the rendering path, and of course deferring JavaScript. Afterwards we'll look at the future, and what HTTP 2.0 has in store for us, going full circle and letting us forego hacks of the past like bundling and minification.",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"16",
-    "title":"Getting over Moore's Law: Parallelization using JavaScript in the browser",
-    "time_from":"15:35 pm",
-    "time_to":"16:00 pm",
-    "type":"talk",
-    "speakers":[
-      {
-        "name":"Damian Schenkelman",
-        "image":"img/speakers/damian_schenkelman.jpg"
-      }
-    ],
-    "background_img":"img/speakers/damian_schenkelman.jpg",
-    "description":"Modern computers and devices continue the trend of having a larger number of CPU cores instead of cores with more computing power. That means that the days of waiting for Moore's Law to take effect so our apps run faster are over, and we, developers, need to start adventuring into the land of parallelism. In this talk we will go over some of the currently available approaches (and ongoing efforts) that make it possible to take advantage of parallelism in the browser using JavaScript. This includes not only the widely spread concept of Web Workers, but also Single Instruction Multiple Data (SIMD) and ParallelJS.",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"16",
-    "title":"Coffee Break",
-    "time_from":"16:00 pm",
-    "time_to":"16:15 pm",
-    "type":"global",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"17",
-    "title":"Gulp JS",
-    "time_from":"16:15 pm",
-    "time_to":"16:45 pm",
-    "type":"talk",
-    "speakers":[
-      {
-        "name":"Eric Schoffstall",
-        "image":"img/speakers/eric_schoffstall.jpg"
-      }
-    ],
-    "background_img":"img/speakers/eric_schoffstall.jpg",
-    "description":"",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"18",
-    "title":"JavaScript ♥ Unicode",
-    "time_from":"16:45 pm",
-    "time_to":"17:10 pm",
-    "type":"talk",
-    "speakers":[
-      {
-        "name":"Mathias Bynens",
-        "image":"img/speakers/mathias_bynens.jpg"
-      }
-    ],
-    "background_img":"img/speakers/mathias_bynens.jpg",
-    "description":"In this talk we’ll take a look at the various ways JavaScript relies on Unicode, what the consequences are for JavaScript developers wishing to support full Unicode, and how the upcoming ECMAScript 6 (or ES 2015 as it’s being called nowadays) will improve this.",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"19",
-    "title":"Node and the Internet of Things",
-    "time_from":"16:15 pm",
-    "time_to":"18:25 pm",
-    "type":"workshop",
-    "speakers":[
-      {
-        "name":"Julián Duque",
-        "image":"img/speakers/julian_duque.jpg"
-      }
-    ],
-    "background_img":"img/speakers/julian_duque.jpg",
-    "description":"In this workshop you'll learn how to implement an IoT service using Node. We will use Arduino with Johnny-Five as IoT powered device and we will develop an MQTT server to receive realtime information from devices, also we will evaluate some Cloud Platforms to work with IoT.",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"20",
-    "title":"Coffee Break",
-    "time_from":"17:10 pm",
-    "time_to":"17:25 pm",
-    "type":"global",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"8",
-    "title":"The awesomeness of Angular 2",
-    "time_from":"17:25 pm",
-    "time_to":"17:55 pm",
-    "type":"talk",
-    "speakers":[
-      {
-        "name":"Ciro Nunes",
-        "image":"img/speakers/ciro_nunes.jpg"
-      }
-    ],
-    "background_img":"img/speakers/ciro_nunes.jpg",
-    "description":"",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"22",
-    "title":"Functional reactive programming for web apps",
-    "time_from":"17:55 pm",
-    "time_to":"18:25 pm",
-    "type":"talk",
-    "speakers":[
-      {
-        "name":"Sergio Gianazza",
-        "image":"img/speakers/sergio_gianazza.jpg"
-      },
-      {
-        "name":"Leonardo Garcia Crespo",
-        "image":"img/speakers/leonardo_garcia_crespo.jpg"
-      }
-    ],
-    "background_img":"",
-    "description":"This talk aims to strengthen the concepts of FRP and show how to use them to develop highly interactive applications. We will show how to create more accurate, simple and readable web applications declaring them as a stream of inputs that get reduced over the application state and then mapped into a rendering function. We will show real-world examples of our own application, amplifiedapp.com covering your recommended daily dose of code. This talk does not aim to be an introduction to FRP, but to show the benefits of applying these concepts in the real world.",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"23",
-    "title":"Flux in large applications",
-    "time_from":"18:25 pm",
-    "time_to":"19:10 pm",
-    "type":"keynote",
-    "speakers":[
-      {
-        "name":"Jeremy Morrell",
-        "image":"img/speakers/jeremy_morrell.png"
-      }
-    ],
-    "background_img":"img/speakers/jeremy_morrell.png",
-    "description":"",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"24",
-    "title":"Close",
-    "time_from":"19:10 pm",
-    "type":"global",
-    "room":"",
-    "date":"day1"
-  },
-  {
-    "id":"25",
-    "title":"Drink Up!",
-    "time_from":"20:30 pm",
-    "type":"global",
-    "room":"",
-    "date":"day1"
-  },
-  {
     "id":"26",
     "title":"Registration & Breakfast",
     "time_from":"9:00 am",
@@ -710,5 +356,53 @@
     "type":"global",
     "room":"Floor 26th",
     "date":"day2"
+  },
+  {
+    "id":"51",
+    "title":"jose",
+    "time_from":"10:00 am",
+    "type":"global",
+    "room":"Floor 26th",
+    "date":"day3"
+  },
+  {
+    "id":"52",
+    "title":"Dia 4",
+    "time_from":"10:00 am",
+    "type":"global",
+    "room":"Floor 26th",
+    "date":"day4"
+  },
+  {
+    "id":"53",
+    "title":"Dia 5",
+    "time_from":"10:00 am",
+    "type":"global",
+    "room":"Floor 26th",
+    "date":"day5"
+  },
+  {
+    "id":"54",
+    "title":"Comida",
+    "time_from":"10:00 am",
+    "type":"global",
+    "room":"Floor 26th",
+    "date":"day6"
+  },
+  {
+    "id":"55",
+    "title":"Cena",
+    "time_from":"10:00 am",
+    "type":"global",
+    "room":"Floor 26th",
+    "date":"day7"
+  },
+  {
+    "id":"56",
+    "title":"Desayuno",
+    "time_from":"10:00 am",
+    "type":"global",
+    "room":"Floor 26th",
+    "date":"day8"
   }
 ]

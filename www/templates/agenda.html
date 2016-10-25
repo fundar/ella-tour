@@ -5,21 +5,93 @@
 
   <ion-tabs class="tabs-striped tabs-top tabs-color-light">
 
-    <ion-tab class="tab-title" title="APR 24">
-      <ion-pane>
+    <ion-tab class="tab-title" title="Day 1">
+	  <ion-pane>
         <ion-content class="padding">
-          <div agenda-event ng-repeat="event in events.day1" class="agenda-event"></div>
-        </ion-content>
+      <div style="font-weight: bold">  Sunday October 30th 2016(Mexico City)</div>
+	  <div> <br><br>Arrival in Mexico City and transfer to hotel. Participants check-in to the hotel and will have time to rest in order to be ready to start the study tour the following day	</div>
+		<div agenda-event ng-repeat="event in events.day1" class="agenda-event"></div>
+		</ion-content>
       </ion-pane>
     </ion-tab>
 
-    <ion-tab class="tab-title" title="APR 25">
+    <ion-tab class="tab-title" title="Day 2">
       <ion-pane>
         <ion-content class="padding">
+		      <div style="font-weight: bold">  Monday October 31st 2016</div>
+					<div> Objectives: </div>
+						<div> Set a common background for the study tour and knowing more for the Mexican political context</div>
+
           <div agenda-event ng-repeat="event in events.day2" class="agenda-event"></div>
         </ion-content>
       </ion-pane>
     </ion-tab>
-
+	
+	<ion-tab class="tab-title" title="Day 3">
+      <ion-pane>
+        <ion-content class="padding">
+		<div style="font-weight: bold">  Tuesday November 1st 2016</div>
+		Objectives:
+		Know about how the academia is contributing to enrich the debates about violence
+		against women in Mexico
+		Analyse a successful example of a strategic alliance among Civil Society
+		Organisations
+          <div agenda-event ng-repeat="event in events.day3" class="agenda-event"></div>
+        </ion-content>
+      </ion-pane>
+    </ion-tab>
+	
+	<ion-tab class="tab-title" title="Day 4">
+      <ion-pane>
+        <ion-content class="padding">
+				<div style="font-weight: bold"> Wednesday November 2nd 2016</div>
+				<div>Objectives: </div>
+				<div> Assess and reflect on the learning acquired the day before and how it can be applied to participants’ own context  Understand and reflect the role the media has played in raising the issue of VAW and DV in the public agenda.</div>
+          <div agenda-event ng-repeat="event in events.day4" class="agenda-event"></div>
+        </ion-content>
+      </ion-pane>
+    </ion-tab>
+	
+	<ion-tab class="tab-title" title="Day 5">
+      <ion-pane>
+        <ion-content class="padding">
+		<div style="font-weight: bold">Thursday November 3rd 2016</div>
+						<div>Objectives: </div>
+						<div>Assess and reflect on the State’s role in tackling VAW and DV, especially, with decision-makers working on gender issues. Learn about advocacy strategies that civil society organizations (CSOs) have used to advance issues on VAW and DV.</div>
+          <div agenda-event ng-repeat="event in events.day5" class="agenda-event"></div>
+        </ion-content>
+      </ion-pane>
+    </ion-tab>
+	<ion-tab class="tab-title" title="Day 6">
+      <ion-pane>
+        <ion-content class="padding">
+		 <div style="font-weight: bold">Friday November 4th 2016</div>
+						<div>Objectives: </div>
+						<div>Learn about the role Civil Society Organisations can play to enhance protection services for women survivors of Domestic Violence</div>
+		 <div agenda-event ng-repeat="event in events.day6" class="agenda-event"></div>
+        </ion-content>
+      </ion-pane>
+    </ion-tab>
+	<ion-tab class="tab-title" title="Day 7">
+      <ion-pane>
+        <ion-content class="padding">
+		<div style="font-weight: bold">Saturday November 5th 2016(Puebla)</div>
+								<div>Objectives: </div>
+						<div>Learn about the role of local CSOs to enhance protection services for women survivors of Domestic Violence</div>
+          <div agenda-event ng-repeat="event in events.day7" class="agenda-event"></div>
+        </ion-content>
+      </ion-pane>
+    </ion-tab>
+	<ion-tab class="tab-title" title="Day 8">
+      <ion-pane>
+        <ion-content class="padding">
+		<div style="font-weight: bold">Sunday November 6th 2016 (Teotihuacan)<div>
+								<div>Objectives: </div>
+						<div></div>
+          <div agenda-event ng-repeat="event in events.day8" class="agenda-event"></div>
+        </ion-content>
+      </ion-pane>
+    </ion-tab>
+	
   </ion-tabs>
 </ion-view>

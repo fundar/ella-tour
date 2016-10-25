@@ -27,10 +27,21 @@ angular.module('jsconfuy.services', [])
 
       var day1 = _.filter(data, function(event){ return event.date =="day1" }),
           day2 = _.filter(data, function(event){ return event.date =="day2" });
-
-      dfd.resolve({
+          day3 = _.filter(data, function(event){ return event.date =="day3" });
+		  day4 = _.filter(data, function(event){ return event.date =="day4" });	
+		  day5 = _.filter(data, function(event){ return event.date =="day5" });
+		  day6 = _.filter(data, function(event){ return event.date =="day6" });
+		  day7 = _.filter(data, function(event){ return event.date =="day7" });
+		  day8 = _.filter(data, function(event){ return event.date =="day8" });
+	  dfd.resolve({
         "day1": day1,
-        "day2": day2
+		"day2": day2,
+        "day3": day3,
+		"day4": day4,
+		"day5": day5,
+		"day6": day6,
+		"day7": day7,
+		"day8": day8
       });
     })
     .error(function(data) {

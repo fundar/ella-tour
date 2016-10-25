@@ -7871,10 +7871,17 @@ a.button {
       list-style: inherit;
       padding-left: 40px; }
 
+ul.people{
+    padding-left: 0px !important;
+    display: inline-block;
+    text-align: center
+}
 .people li{
   list-style: none;
-  display: inline;
-  margin-left:2px;
+  float: left;
+  margin:10px;
+  max-width: 40%;
+  text-align: center;
 }
 
 .ridondo {
@@ -7891,7 +7898,4 @@ a.button {
   margin-top: 20px;
 }
 
-ul.people{
-  
-    padding-left: 10px;
-}
+

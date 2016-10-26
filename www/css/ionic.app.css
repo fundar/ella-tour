@@ -2817,7 +2817,8 @@ h1, .h1 {
   font-size: 36px; }
 
 h2, .h2 {
-  font-size: 30px; }
+    font-size: 18px;
+  }
 
 h3, .h3 {
   font-size: 24px; }
@@ -7665,8 +7666,8 @@ a.button {
       right: 20px;
       left: initial; }
     .main-menu ion-item.item .item-content .icon:before {
-      color: #254164;
-      font-size: calc(30px - 4px); }
+      color: #fff;
+      font-size: calc(28px - 6px); }
   .main-menu ion-item.item .item-content.activated {
     background-color: #B2B2B0; }
   .main-menu ion-item.item .menu-text {
@@ -7874,7 +7875,8 @@ a.button {
     padding: 20px; }
     .event-view .event-description ul {
       list-style: inherit;
-      padding-left: 40px; }
+      padding-left: 40px;
+      padding-top: 20px;}
 
 ul.people{
     padding-left: 0px !important;
@@ -7883,24 +7885,34 @@ ul.people{
 }
 .people li{
   list-style: none;
+  display: inline-block;
   float: left;
-  margin:8px;
-  width: 100px;
+  padding: 8px;
+  width: 50%;
   text-align: center;
+  
 }
 
-.people li h4{
+.people li h4 {
+    color: #da2842;
+    font-size: 14px;
 }
-
 
 .ridondo {
   border-radius: 50%;
   height: 80px;
   width: 80px;
+  box-shadow: 0px 0 12px rgba(0, 0, 0, 0.22)
+}
+.ridondo:hover {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  box-shadow: 0px 0 7px rgba(0, 0, 0, 0)
 }
 
 .embassies{
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .embassy{
@@ -7921,3 +7933,34 @@ ul.people{
   color: #fff !important;
   width:100% !important;
 } 
+
+/** custom **/
+.cabecera{
+    border-bottom: 3px solid #eee;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+.contactoPais{
+    color: #da2842;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.asterisco {
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 32px;
+    padding-left: 1px;
+    text-align: left;
+    text-indent: -8px;
+}
+a.enlaceRojo {
+    color: #da2842;
+    text-decoration-color: -moz-use-text-color;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+}

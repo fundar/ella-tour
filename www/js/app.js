@@ -102,6 +102,15 @@ angular.module('jsconfuy', [
     }
   })
 
+  .state('app.welcome', {
+    url: "/welcome",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/welcome.html"
+      }
+    }
+  })
+
   .state('app.infoDetail', {
     url: "/information/:infoId",
     views: {

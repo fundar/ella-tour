@@ -9,7 +9,7 @@
       <span ng-repeat="speaker in event.speakers">{{speaker.name}}{{$last ? '' : ', '}}</span>
     </p>
     <p class="event-room" ng-show="event.room">{{event.room}}</p>
-    <div class="event-type-tag {{event.type+'-event'}}">{{event.type}}</div>
+    <div class="event-type-tag {{event.type+'-event'}}">{{event.read}}</div>
   </a>
   <div ng-if="event.type === 'global'" class="col col-75 event-content {{event.type}}">
     <p class="event-title" ng-bind-html="event.title"></p>

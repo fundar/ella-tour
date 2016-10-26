@@ -121,6 +121,15 @@ angular.module('jsconfuy', [
     }
   })
 
+  .state('app.map', {
+    url: "/maps",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/maps.html"
+      }
+    }
+  })
+
   .state('app.infoDetail', {
     url: "/information/:infoId",
     views: {

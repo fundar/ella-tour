@@ -1,0 +1,25 @@
+<ion-view class="event-view">
+  <ion-nav-buttons side="right">
+    <a class="button button-icon icon ion-share share-event" ng-click="shareEvent(event)"></a>
+  </ion-nav-buttons>
+  <ion-nav-title>
+    <span> Maps </span>
+  </ion-nav-title>
+  <ion-content overflow-scroll="true">
+    
+	<h3> Mexico Map </h3>
+	<ion-scroll zooming="true" direction="xy" style="width: 500px; height: 500px">
+		<img src="img/map_mexico.png" />
+	</ion-scroll>	
+
+	<h3> Puebla Map </h3>
+	<ion-scroll zooming="true" direction="xy" style="width: 500px; height: 500px">
+		<img src="img/map_puebla.png" />
+	</ion-scroll>	
+
+  </ion-content>
+</ion-view>
+
+<div agenda-event ng-repeat="event in events.day2" class="agenda-event"></div>
+
+

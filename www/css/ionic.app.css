@@ -7884,10 +7884,14 @@ ul.people{
 .people li{
   list-style: none;
   float: left;
-  margin:10px;
-  max-width: 40%;
+  margin:8px;
+  width: 100px;
   text-align: center;
 }
+
+.people li h4{
+}
+
 
 .ridondo {
   border-radius: 50%;

@@ -3,7 +3,15 @@
     <span>Who is the Tour</span>
   </ion-nav-title>
   <ion-content>
-    <div class="list card speaker" ng-repeat="speaker in speakers">
+    <ul class="people spkr" ng-repeat="speaker in speakers">
+      <a ui-sref="app.bio({participantId: speaker.id})">
+        <li>
+          <img class='ridondo' ng-src="{{speaker.img}}">
+          <h4 class='name'> <b> {{ speaker.name }} </b> </h4> 
+          <p> {{ speaker.country }} </p>
+        </li>
+      </a>
+      <!--  
       <div class="item title">
         <h2 class="speaker-name">{{speaker.name}}</h2>
       </div>
@@ -31,6 +39,7 @@
           </div>
         </div>
       </div>
+      -->
     </div>
   </ion-content>
 </ion-view>

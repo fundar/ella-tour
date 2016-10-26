@@ -50,6 +50,16 @@ angular.module('jsconfuy', [
     }
   })
 
+   .state('app.bio', {
+    url: "/bio/:participantId",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/bio.html",
+        controller: 'BioCtrl'
+      }
+    }
+  })
+
   .state('app.venue', {
     url: "/venue",
     views: {

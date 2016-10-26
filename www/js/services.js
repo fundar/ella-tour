@@ -15,6 +15,22 @@ angular.module('jsconfuy.services', [])
 
     return dfd.promise;
   };
+
+  this.getBio = function(participantId){
+    var dfd = $q.defer();
+
+    $http.get('speakers.json')
+    .success(function(data) {
+      var participant = _.find(data, {id: participantId});
+      dfd.resolve(participant);
+    })
+    .error(function(data) {
+      dfd.reject(data);
+    });
+
+    return dfd.promise;
+  };
+
 })
 
 .service('Agenda', function ($http, $q){

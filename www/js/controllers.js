@@ -25,6 +25,23 @@ angular.module('jsconfuy.controllers', [])
   }
 })
 
+.controller('BioCtrl', function($scope, Speakers, $stateParams, $ionicLoading) {
+  var participantId = $stateParams.participantId;
+
+  $ionicLoading.show({
+    template: 'Loading...'
+  });
+
+  Speakers.getBio(participantId)
+  .then(function(data){
+    $scope.participant = data;
+    console.log(data)
+    $ionicLoading.hide();
+  },function(err){
+    $ionicLoading.hide();
+  })
+})
+
 .controller('VenueCtrl', function($scope) {
   //map with venue position
   $scope.position = {

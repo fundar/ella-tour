@@ -2,7 +2,7 @@
   <ion-nav-title>
     <span>Who is the Tour</span>
   </ion-nav-title>
-  <ion-content>
+  <ion-content overflow-scroll="true">
     <ul class="people spkr marginTop" ng-repeat="speaker in speakers">
       <a ui-sref="app.bio({participantId: speaker.id})">
         <li>

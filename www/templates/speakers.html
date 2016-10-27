@@ -3,11 +3,11 @@
     <span>Who is the Tour</span>
   </ion-nav-title>
   <ion-content>
-    <ul class="people spkr" ng-repeat="speaker in speakers">
+    <ul class="people spkr marginTop" ng-repeat="speaker in speakers">
       <a ui-sref="app.bio({participantId: speaker.id})">
         <li>
           <img class='ridondo' ng-src="{{speaker.img}}">
-          <h4 class='name'> <b> {{ speaker.name }} </b> </h4> 
+          <h4 class='name margen0'>  {{ speaker.name }} </h4> 
           <p> {{ speaker.country }} </p>
         </li>
       </a>

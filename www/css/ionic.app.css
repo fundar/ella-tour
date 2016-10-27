@@ -2576,7 +2576,7 @@ body, .ionic-body {
 body.grade-b, body.grade-c {
   text-rendering: auto; }
 
-.content {
+.content { 
   position: relative; }
 
 .scroll-content {
@@ -7669,7 +7669,7 @@ a.button {
       color: #fff;
       font-size: calc(28px - 6px); }
   .main-menu ion-item.item .item-content.activated {
-    background-color: #B2B2B0; }
+    background-color: #991731; }
   .main-menu ion-item.item .menu-text {
     color: #FFFFFF;
     font-weight: 500; }
@@ -7880,7 +7880,6 @@ a.button {
 
 ul.people{
     padding-left: 0px !important;
-    display: inline-block;
     text-align: center
 }
 .people li{
@@ -7963,4 +7962,71 @@ a.enlaceRojo {
     text-decoration-color: -moz-use-text-color;
     text-decoration-line: none;
     text-decoration-style: solid;
+}
+a.enlaceRojo:hover {
+    color: #b51d3a;
+}
+.negritas {
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 8px;
+}
+.borderGrey{
+  height: 1px;
+  width: 100%;
+  background: #eee;
+  margin-top: 45px;
+}
+.borderGrey2 {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #eee;
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0;
+    background-position-y: 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.margen0{
+  margin: 0;
+}
+.marginTop {
+    margin-top: 22px;
+}
+.principalMargenes{
+  margin: 8px;
+}
+.subTitilo-seccion {
+    border-bottom-color: #eee;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+.materialNombre{
+    color: #000;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.main-menu:hover ion-item.item:hover {
+    background-color: rgba(160, 26, 51, 0.28);
+    border-bottom-color: rgba(179, 179, 179, 0.35);
+    border-left-color: rgba(179, 179, 179, 0.35);
+    border-left-style: none;
+    border-left-width: medium;
+    border-right-color: rgba(179, 179, 179, 0.35);
+    border-right-style: none;
+    border-right-width: medium;
+    border-top-color: rgba(179, 179, 179, 0.35);
 }

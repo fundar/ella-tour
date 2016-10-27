@@ -7957,6 +7957,12 @@ ul.people{
     text-align: left;
     text-indent: -8px;
 }
+.notas {
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 32px;
+    text-align: left;
+}
 a.enlaceRojo {
     color: #da2842;
     text-decoration-color: -moz-use-text-color;

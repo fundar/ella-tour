@@ -6,21 +6,16 @@
     <span> Maps </span>
   </ion-nav-title>
   <ion-content overflow-scroll="true">
+  	<ul id="menu" name="menu">
+  		<a ui-sref="app.map({img: 'map_puebla' })" style="margin-left:10px;" > <b> Puebla Map  </b> </a>
+  		<a ui-sref="app.map({img: 'map_mexico' })" style="margin-left:10px;" > <b> Insurgentes Map </b> </a>
+  	 	<a ui-sref="app.map({img: 'map_coyoacan' })" style="margin-left:10px;" > <b> Coyoacán Map  </b> </a>
+  	</ul>
     
-	<h3 class="cabecera">Insurgentes Map (Mexico)  </h3>
+	<h3 class="cabecera">{{ map.name }} </h3>
 	<ion-scroll zooming="true" direction="xy" style="width: 500px; height: 500px">
-		<img src="img/map_mexico.png" />
+		<img src="img/{{map.img}}.png" />
 	</ion-scroll>
-
-	<h3 class="cabecera">Coyoacán Map (Mexico) </h3>
-	<ion-scroll zooming="true" direction="xy" style="width: 500px; height: 500px">
-		<img src="img/map_coyoacan.png" />
-	</ion-scroll>	
-
-	<h3 class="cabecera"> Puebla Map </h3>
-	<ion-scroll zooming="true" direction="xy" style="width: 500px; height: 500px">
-		<img src="img/map_puebla.png" />
-	</ion-scroll>	
 
   </ion-content>
 </ion-view>

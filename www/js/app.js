@@ -122,10 +122,11 @@ angular.module('jsconfuy', [
   })
 
   .state('app.map', {
-    url: "/maps",
+    url: "/maps/:img",
     views: {
       'menuContent': {
-        templateUrl: "templates/maps.html"
+        templateUrl: "templates/maps.html",
+        controller: 'MapCtrl'
       }
     }
   })

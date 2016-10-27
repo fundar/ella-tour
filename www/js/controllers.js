@@ -54,6 +54,18 @@ angular.module('jsconfuy.controllers', [])
   });
 })
 
+.controller('MapCtrl', function($scope, Information, $stateParams, $ionicLoading) {
+  var data = {}
+  data.img = $stateParams.img;
+ 
+  if(data.img == "map_coyoacan") data.name = "Coyoacán Map - Mexico"
+  if(data.img == "map_puebla") data.name = "Puebla Map"
+  if(data.img == "map_mexico") data.name = "Insurgentes Map - Mexico"
+  
+  $scope.map = data;
+
+})
+
 
 .controller('AgendaCtrl', function($scope, Agenda, $ionicLoading) {
   $scope.events = [];
